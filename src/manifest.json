@@ -75,7 +75,7 @@
             ]
         }
     ],
-    "content_security_policy": "script-src 'self' https://www.google-analytics.com https://cdn.owebanalytics.com; object-src 'self' ; child-src *; connect-src 'self' https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts https://greatsuspender.github.io https://www.google-analytics.com www.google-analytics.com https://cdn.owebanalytics.com https://stats.g.doubleclick.net *; img-src 'self' data: chrome: https://www.google-analytics.com www.google-analytics.com https://stats.g.doubleclick.net https://greatsuspender.github.io https://cdn.owebanalytics.com; style-src 'self' https://greatsuspender.github.io; default-src 'self'",
+    "content_security_policy": "; object-src 'self'; child-src 'self'; connect-src 'self' https://greatsuspender.github.io; img-src 'self' data: chrome: https://greatsuspender.github.io; style-src 'self' https://greatsuspender.github.io; default-src 'self'",
     "default_locale": "en",
     "description": "__MSG_ext_extension_description__",
     "icons": {
@@ -85,7 +85,6 @@
         "48": "img/ic_suspendy_48x48.png"
     },
     "incognito": "split",
-    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWu7+3vUaUm2vuJZQsiPeciQbO5hpq8/Z2o6zP/Kv7I5+rI1ZfDhjsuz6jw2Efi23YwkAGPpXewhKnrmGXAgRSPIq1EHZUTwVwqo1SFWGCyEzywvXjpPiLaP3DsJCHT2wJE0KcWvt/aKeREtFCpvZ3b5vnupYh1oMlSryqBiINewIDAQAB",
     "manifest_version": 2,
     "minimum_chrome_version": "55",
     "name": "__MSG_ext_extension_name__",
@@ -108,7 +107,6 @@
     "storage": {
         "managed_schema": "managed-storage-schema.json"
     },
-    "update_url": "https://clients2.google.com/service/update2/crx",
     "version": "7.1.9",
     "web_accessible_resources": [
         "suspended.html"

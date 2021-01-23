@@ -197,15 +197,15 @@ function loadGoogleAnalytics(i, s, o, g, r, a, m) {
 }
 
 function init() {
-    if (!gsStorage.getOption('trackingOptOut')) {
-        loadGoogleAnalytics(
-            window,
-            document,
-            'script',
-            'https://www.google-analytics.com/analytics.js',
-            'ga'
-        );
-    }
+    // if (false) {
+    //     loadGoogleAnalytics(
+    //         window,
+    //         document,
+    //         'script',
+    //         'https://www.google-analytics.com/analytics.js',
+    //         'ga'
+    //     );
+    // }
     gsAnalytics = gsAnalytics();
 }
 
